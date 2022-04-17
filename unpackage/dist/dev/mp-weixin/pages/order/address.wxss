@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.item.data-v-4d3d05ec {
+  padding: 40rpx 20rpx;
+}
+.item .top.data-v-4d3d05ec {
+  display: flex;
+  align-items: center;
+}
+.item .top .name.data-v-4d3d05ec {
+  font-weight: bold;
+  font-size: 34rpx;
+}
+.item .top .phone.data-v-4d3d05ec {
+  margin-left: 10rpx;
+  color: #888;
+}
+.item .top .tag.data-v-4d3d05ec {
+  font-weight: normal;
+  width: 60rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  color: orange;
+  font-size: 20rpx;
+  border-radius: 6rpx;
+  text-align: center;
+  margin-left: 30rpx;
+  border: 1px solid orange;
+}
+.item .bottom.data-v-4d3d05ec {
+  display: flex;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  justify-content: space-between;
+  color: #999999;
+}
+.item .bottom .icon.data-v-4d3d05ec {
+  width: 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.addSite.data-v-4d3d05ec {
+  display: flex;
+  justify-content: space-around;
+  width: 640rpx;
+  line-height: 76rpx;
+  position: absolute;
+  bottom: 30rpx;
+  left: 56rpx;
+  background-color: orange;
+  border-radius: 60rpx;
+  font-size: 30rpx;
+}
+.addSite .add.data-v-4d3d05ec {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.addSite .add .icon.data-v-4d3d05ec {
+  margin-right: 10rpx;
+}
+

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page {
+  background-image: linear-gradient(pink, #fff, #F5F5F5, #F5F5F5, #F5F5F5, #F5F5F5, #F5F5F5);
+}
+.header {
+  padding: 40rpx;
+  display: flex;
+}
+.header .avatar-body {
+  width: 70px;
+  height: 70px;
+}
+.header .name {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8rpx;
+  margin-left: 20rpx;
+  width: 220rpx;
+}
+.header .name .nickname {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.myOrder {
+  background-color: #FFFFFF;
+  height: 220rpx;
+  box-shadow: 10rpx 10rpx 10rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  margin: 10rpx;
+  padding: 20rpx;
+}
+.myOrder .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myOrder .title .order {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.myOrder .title .total {
+  display: flex;
+  color: #888;
+}
+.myOrder .title .total .enter {
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 8rpx;
+  position: relative;
+}
+.myOrder .title .total .enter:after, .myOrder .title .total .enter:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: 12rpx solid transparent;
+  border-left-color: #888;
+}
+.myOrder .title .total .enter:after {
+  border-left-color: #fff;
+  left: -2rpx;
+}
+.myOrder .content {
+  display: flex;
+  margin: 30rpx 50rpx;
+  justify-content: space-between;
+}
+.myOrder .content .item {
+  width: 100rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.myOrder .content .item image {
+  width: 64rpx;
+  height: 64rpx;
+  margin-left: 10rpx;
+}
+.logout {
+  margin: 20rpx 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  font-weight: bold;
+  font-size: 32rpx;
+  background-color: #FFE4E1;
+}
+

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-f0a9f5ba {
+  background-color: #F5F5F5;
+}
+.productInfo.data-v-f0a9f5ba {
+  background-color: #FFFFFF;
+  margin: 20rpx 10rpx;
+  border-radius: 20rpx;
+  height: 240rpx;
+  padding: 20rpx 30rpx;
+}
+.productInfo .price.data-v-f0a9f5ba {
+  color: #FF4500;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.productInfo .intro.data-v-f0a9f5ba {
+  margin-top: 10rpx;
+  display: flex;
+}
+.productInfo .intro .card.data-v-f0a9f5ba {
+  width: 140rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 30rpx;
+  background-color: #9932CC;
+  color: #FFFFFF;
+}
+.productInfo .intro text.data-v-f0a9f5ba {
+  width: 340rpx;
+  margin-left: 20rpx;
+  color: #888;
+}
+.productInfo .intro .sales.data-v-f0a9f5ba {
+  margin-left: 38rpx;
+  color: #888;
+}
+.productInfo .title.data-v-f0a9f5ba {
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.content .header.data-v-f0a9f5ba {
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #F5F5F5;
+}
+.content .header .price.data-v-f0a9f5ba {
+  color: #FF4500;
+  font-size: 38rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+.content .attrs.data-v-f0a9f5ba {
+  padding: 20rpx;
+  border-bottom: 1px solid #F5F5F5;
+}
+.content .attrs text.data-v-f0a9f5ba {
+  font-size: 30rpx;
+}
+.content .attrs .category.data-v-f0a9f5ba {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .attrs .category .active.data-v-f0a9f5ba {
+  border: 1px solid #ed3f14;
+  color: #ed3f14;
+  background-color: #FFDEAD;
+}
+.content .attrs .category .attr.data-v-f0a9f5ba {
+  margin-right: 20rpx;
+  min-width: 200rpx;
+  padding: 0 20rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: #F5F5F5;
+}
+.content .payNum.data-v-f0a9f5ba {
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.content .payNum text.data-v-f0a9f5ba {
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.content .payNum .stock.data-v-f0a9f5ba {
+  color: #888;
+}
+.content .payNum .num.data-v-f0a9f5ba {
+  margin-left: 200rpx;
+}
+.content .sure.data-v-f0a9f5ba {
+  line-height: 72rpx;
+  font-size: 30rpx;
+  border-radius: 36rpx;
+  color: #ffffff;
+  background-color: #ed3f14;
+  text-align: center;
+  margin: 20rpx 20rpx 40rpx;
+}
+.content .right.data-v-f0a9f5ba {
+  padding: 20rpx;
+  height: 160rpx;
+  width: 100%;
+  display: flex;
+  font-size: 30rpx;
+  align-items: center;
+}
+.content .right .btn.data-v-f0a9f5ba {
+  line-height: 72rpx;
+  text-align: center;
+  color: #ffffff;
+}
+.content .right .cart.data-v-f0a9f5ba {
+  background-color: #ff7900;
+  flex: 1;
+  border-radius: 36rpx 0 0 36rpx;
+}
+.content .right .buy.data-v-f0a9f5ba {
+  background-color: #ed3f14;
+  flex: 1;
+  border-radius: 0 36rpx 36rpx 0;
+}
+.productAttr.data-v-f0a9f5ba {
+  height: 230rpx;
+  background-color: #FFFFFF;
+  margin: 0 10rpx 20rpx;
+  border-radius: 20rpx;
+  padding: 20rpx 30rpx;
+}
+.productAttr .title.data-v-f0a9f5ba {
+  margin-right: 40rpx;
+  color: #888;
+}
+.productAttr .item.data-v-f0a9f5ba {
+  display: flex;
+  margin: 20rpx;
+  align-items: center;
+}
+.productAttr .item .attr.data-v-f0a9f5ba {
+  font-size: 30rpx;
+  margin-top: -2rpx;
+}
+.productAttr .item .enter.data-v-f0a9f5ba {
+  margin-left: 400rpx;
+  margin-top: -20rpx;
+  position: relative;
+}
+.productAttr .item .enter.data-v-f0a9f5ba:after, .productAttr .item .enter.data-v-f0a9f5ba:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: 12rpx solid transparent;
+  border-left-color: #888;
+}
+.productAttr .item .enter.data-v-f0a9f5ba:after {
+  border-left-color: #fff;
+  left: -2rpx;
+}
+.comment.data-v-f0a9f5ba {
+  height: 80rpx;
+  background-color: #FFFFFF;
+  margin: 0 10rpx 20rpx;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+.comment .title.data-v-f0a9f5ba {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.comment .all.data-v-f0a9f5ba {
+  display: flex;
+  color: #FF4500;
+}
+.comment .all .enter.data-v-f0a9f5ba {
+  margin-left: 10rpx;
+  margin-top: 7rpx;
+  position: relative;
+}
+.comment .all .enter.data-v-f0a9f5ba:after, .comment .all .enter.data-v-f0a9f5ba:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: 12rpx solid transparent;
+  border-left-color: #FF4500;
+}
+.comment .all .enter.data-v-f0a9f5ba:after {
+  border-left-color: #fff;
+  left: -2rpx;
+}
+.detail.data-v-f0a9f5ba {
+  width: 100%;
+}
+.detail.data-v-f0a9f5ba:last-child {
+  margin-bottom: 10rpx;
+}
+.like_goods.data-v-f0a9f5ba {
+  padding-bottom: 100rpx;
+}
+.navigation.data-v-f0a9f5ba {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 16rpx 0;
+}
+.navigation .left.data-v-f0a9f5ba {
+  display: flex;
+  font-size: 20rpx;
+}
+.navigation .left .item.data-v-f0a9f5ba {
+  width: 120rpx;
+  text-align: center;
+}
+.navigation .left .item.car.data-v-f0a9f5ba {
+  position: relative;
+}
+.navigation .left .item.car .car-num.data-v-f0a9f5ba {
+  position: absolute;
+}
+.navigation .right.data-v-f0a9f5ba {
+  margin-right: 20rpx;
+  display: flex;
+  font-size: 28rpx;
+  width: 440rpx;
+  align-items: center;
+}
+.navigation .right .btn.data-v-f0a9f5ba {
+  line-height: 66rpx;
+  padding: 0 30rpx;
+  text-align: center;
+  color: #ffffff;
+}
+.navigation .right .cart.data-v-f0a9f5ba {
+  background-color: #ff7900;
+  flex: 1;
+  border-radius: 36rpx 0 0 36rpx;
+}
+.navigation .right .buy.data-v-f0a9f5ba {
+  background-color: #ed3f14;
+  flex: 1;
+  border-radius: 0 36rpx 36rpx 0;
+}
+

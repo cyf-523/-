@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "uni商城",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

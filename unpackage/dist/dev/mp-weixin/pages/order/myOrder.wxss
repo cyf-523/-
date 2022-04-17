@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-67aadf18 {
+  background-color: #F5F5F5;
+  padding-top: 80rpx;
+}
+.tabs.data-v-67aadf18 {
+  width: 100%;
+  position: fixed;
+  top: 88rpx;
+  z-index: 1;
+}
+.container.data-v-67aadf18 {
+  margin: 20rpx 10rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.container .product.data-v-67aadf18 {
+  margin-bottom: 10rpx;
+  display: flex;
+}
+.container .product .left image.data-v-67aadf18 {
+  border-radius: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.container .product .right.data-v-67aadf18 {
+  margin-left: 20rpx;
+}
+.container .product .right .top.data-v-67aadf18 {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.container .product .right .top .title.data-v-67aadf18 {
+  font-size: 30rpx;
+  width: 430rpx;
+}
+.container .product .right .info.data-v-67aadf18 {
+  display: flex;
+  color: #888;
+}
+.container .product .right .info .attr.data-v-67aadf18 {
+  width: 470rpx;
+}
+.bottom.data-v-67aadf18 {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.bottom .btn.data-v-67aadf18 {
+  height: 50rpx;
+  width: 140rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1px solid #888;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+}
+.centre.data-v-67aadf18 {
+  text-align: center;
+  margin: 100rpx auto;
+  font-size: 32rpx;
+}
+.centre .icon.data-v-67aadf18 {
+  margin-bottom: 20rpx;
+}
+.centre .tips.data-v-67aadf18 {
+  font-size: 24rpx;
+  color: #999999;
+  margin-top: 20rpx;
+}
+.centre .btn.data-v-67aadf18 {
+  margin: 80rpx auto;
+  width: 200rpx;
+  border-radius: 32rpx;
+  line-height: 64rpx;
+  color: #ffffff;
+  font-size: 26rpx;
+  background: linear-gradient(270deg, #f9745a 0%, #ff9e01 100%);
+}
+

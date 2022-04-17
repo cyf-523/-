@@ -1,0 +1,229 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni商城"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/center/mycollect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/order/address",
+			"style": {
+				"navigationBarTitleText": "我的收货地址"
+			}
+		},
+		{
+			"path": "pages/order/addSite",
+			"style": {
+				"navigationBarTitleText": "添加收货地址"
+			}
+		},
+		{
+			"path": "pages/order/changeAddress",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		},
+		{
+	        "path" : "pages/cart/index",
+	        "style" :                                                                                    
+	        {
+	            "navigationBarTitleText": "购物车",
+	            "enablePullDownRefresh": false
+	        }
+	        
+	    },
+		{
+		    "path" : "pages/order/preViewOrder",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "确认订单",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/order/preView",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "确认订单",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/order/paySuccess",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "支付成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/order/myOrder",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的订单",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/order/orderDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "订单详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+	        "path" : "pages/goods/index",
+	        "style" :                                                                                    
+	        {
+				// "navigationStyle":"custom",
+	            "navigationBarTitleText": "商品分类"
+				// "disableScroll": true
+	            // "enablePullDownRefresh": false
+	        }
+	        
+	    },
+		{
+			"path" : "pages/goods/detail",
+			"style": {
+				// "navigationStyle":"custom"
+				 "navigationBarTitleText": "商品详情"
+			}
+		},
+		// 商品评论
+		{
+		    "path" : "pages/goods/comment",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle":"custom"
+		    }
+		    
+		},
+		// 搜索商品
+		{
+		    "path" : "pages/search/index",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle":"custom"
+		    }
+		    
+		},
+		// 搜索商品列表
+		{
+		    "path" : "pages/search/list",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle":"custom"
+		    }
+		    
+		},
+		// 分类商品列表
+		{
+		    "path" : "pages/goods/list",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle":"custom"
+		    }
+		    
+		},
+		{
+			"path" : "pages/auth/login",
+			"style": {
+				 // "navigationStyle":"custom"
+				 "navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path" : "pages/auth/register",
+			"style": {
+				 // "navigationStyle":"custom"
+				 "navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path" : "pages/center/baseInfo",
+			"style": {
+				 // "navigationStyle":"custom"
+				 "navigationBarTitleText": "账号与安全"
+			}
+		},
+		{
+			"path" : "pages/center/changeNickname",
+			"style": {
+				 "navigationBarTitleText": "修改uu昵称"
+			}
+		},
+		{
+			"path" : "pages/center/changephone",
+			"style": {
+				 "navigationBarTitleText": "修改手机号"
+			}
+		},
+		{
+			"path" : "pages/center/changepassword",
+			"style": {
+				 "navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path" : "pages/center/changephoto",
+			"style": {
+				 "navigationBarTitleText": "更换头像"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni商城",
+		"navigationBarBackgroundColor": "#FF8888",
+		"backgroundColor": "#FF8888"
+	},
+	"tabBar": {
+	    "color": "#515151",
+	    "selectedColor": "#FF8888",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/icon/h.png",
+	        "selectedIconPath": "static/icon/ha.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/goods/index",
+	        "iconPath": "static/icon/g.png",
+	        "selectedIconPath": "static/icon/ga.png",
+	        "text": "商品"
+	    }, {
+	        "pagePath": "pages/cart/index",
+	        "iconPath": "static/icon/c.png",
+	        "selectedIconPath": "static/icon/ca.png",
+	        "text": "购物车"
+	    }, {
+	        "pagePath": "pages/center/index",
+	        "iconPath": "static/icon/m.png",
+	        "selectedIconPath": "static/icon/ma.png",
+	        "text": "我"
+	    }]
+	}
+}

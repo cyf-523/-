@@ -1,0 +1,82 @@
+
+page {
+	background-color: #F5F5F5;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.content .card.data-v-57280228 {
+  height: 520rpx;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20rpx;
+  background-color: #fff;
+  background-image: linear-gradient(pink, #fff, #fff, #fff, #fff, #fff, #fff);
+  box-shadow: 10rpx 10rpx 10rpx rgba(0, 0, 0, 0.1);
+  margin: 0 20rpx;
+}
+.content .card .item.data-v-57280228 {
+  padding: 10rpx 10rpx 0;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .card .item text.data-v-57280228 {
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.content .card .item .icon.data-v-57280228 {
+  width: 100rpx;
+  height: 40rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 40rpx;
+  margin-left: 10rpx;
+}
+.content .card .item .img.data-v-57280228 {
+  width: 100%;
+  height: 160rpx;
+  display: flex;
+}
+.content .card .item .img .img1.data-v-57280228 {
+  height: 140rpx;
+  width: 140rpx;
+}
+.content .card .item .img .img2.data-v-57280228 {
+  margin-left: 20rpx;
+  height: 160rpx;
+  width: 160rpx;
+}
+.content .card .item1.data-v-57280228 {
+  border-right: 2rpx solid #ccc;
+  border-bottom: 2rpx solid #ccc;
+}
+.content .card .item1 .icon.data-v-57280228 {
+  background-color: #FF8C00;
+}
+.content .card .item2.data-v-57280228 {
+  border-bottom: 2rpx solid #ccc;
+}
+.content .card .item2 .icon.data-v-57280228 {
+  background-color: #FF0000;
+}
+.content .card .item3.data-v-57280228 {
+  border-right: 2rpx solid #ccc;
+}
+.content .card .item3 .icon.data-v-57280228 {
+  background-color: #1E90FF;
+}
+.content .card .item4 .icon.data-v-57280228 {
+  background-color: #FF4500;
+}
+.content .sort.data-v-57280228 {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 0 20rpx;
+}
+

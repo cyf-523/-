@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-cbd5a456 {
+  background-color: #F5F5F5;
+}
+.order.data-v-cbd5a456 {
+  margin: 20rpx 10rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.order .product.data-v-cbd5a456 {
+  margin-bottom: 10rpx;
+  display: flex;
+}
+.order .product .left image.data-v-cbd5a456 {
+  border-radius: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.order .product .right.data-v-cbd5a456 {
+  margin-left: 20rpx;
+}
+.order .product .right .top.data-v-cbd5a456 {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.order .product .right .top .title.data-v-cbd5a456 {
+  font-size: 30rpx;
+  width: 430rpx;
+}
+.order .product .right .info.data-v-cbd5a456 {
+  display: flex;
+  color: #888;
+}
+.order .product .right .info .attr.data-v-cbd5a456 {
+  width: 470rpx;
+}
+.order .total.data-v-cbd5a456 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.order .total .totalPrice.data-v-cbd5a456 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FF4500;
+}
+.order .addressInfo.data-v-cbd5a456 {
+  display: flex;
+  color: #888;
+  margin-bottom: 10rpx;
+}
+.order .addressInfo .msg.data-v-cbd5a456 {
+  color: black;
+  width: 300rpx;
+}
+.order .orderInfo.data-v-cbd5a456 {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+}
+.order .orderInfo .orderId.data-v-cbd5a456 {
+  color: black;
+}
+

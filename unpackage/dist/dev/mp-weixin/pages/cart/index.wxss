@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.cartList.data-v-457cfe48 {
+  margin-bottom: 100rpx;
+}
+.item.data-v-457cfe48 {
+  display: flex;
+  padding: 20rpx 30rpx 20rpx;
+  height: 280rpx;
+  align-items: center;
+}
+image.data-v-457cfe48 {
+  width: 180rpx;
+  flex: 0 0 180rpx;
+  height: 220rpx;
+  margin-right: 30rpx;
+  border-radius: 12rpx;
+  background-color: #F5F5F5;
+}
+.right .title.data-v-457cfe48 {
+  text-align: left;
+  font-size: 28rpx;
+  padding-right: 10rpx;
+  font-weight: bold;
+}
+.right .attr.data-v-457cfe48 {
+  height: 44rpx;
+  background-color: #F5F5F5;
+  border-radius: 10rpx;
+  line-height: 44rpx;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+  color: #888;
+}
+.right .skuNum.data-v-457cfe48 {
+  display: flex;
+  justify-content: space-between;
+}
+.right .skuNum .price.data-v-457cfe48 {
+  color: #FF4500;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.right .skuNum .num.data-v-457cfe48 {
+  margin-left: 100rpx;
+}
+.footer.data-v-457cfe48 {
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  bottom: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+}
+.price.data-v-457cfe48 {
+  color: #FF4500;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.compute.data-v-457cfe48 {
+  background-image: linear-gradient(to right, #FF7F50, #FF4500);
+  width: 160rpx;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 18px;
+  color: #ffffff;
+}
+
